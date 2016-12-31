@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="FACase.aspx.cs" Inherits="Parinya_MasterProject.About" %>
+﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="FACase.aspx.cs" Inherits="Parinya_MasterProject.Main_Function.FACase" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><span style="font-size: x-large">Please fill in failure information in this form.</span></h2>
@@ -75,9 +75,9 @@
             </td>
         </tr>
         <tr>
-            <td class="text-right" style="width: 180px">Preventive Action</td>
-            <td style="width: 6px">&nbsp;</td>
-            <td>
+            <td class="text-right" style="width: 180px; height: 23px;">Preventive Action</td>
+            <td style="width: 6px; height: 23px;"></td>
+            <td style="height: 23px">
                 <asp:TextBox runat="server" ID="case_preventive" CssClass="form-control" TextMode="MultiLine" Width="400px" />
             </td>
         </tr>

@@ -7,7 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Parinya_MasterProject {
+namespace Parinya_MasterProject.Main_Function
+{
     
     
     public partial class Search {

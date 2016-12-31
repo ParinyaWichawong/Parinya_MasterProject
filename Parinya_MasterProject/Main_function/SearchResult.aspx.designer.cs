@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Parinya_MasterProject {
+namespace Parinya_MasterProject.Main_Function {
     
     
-    public partial class About {
+    public partial class SearchResult {
         
         /// <summary>
         /// Label_foundNum control.

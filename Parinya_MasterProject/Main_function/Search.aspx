@@ -1,10 +1,11 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Search.aspx.cs" Inherits="Parinya_MasterProject.About" %>
+﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Search.aspx.cs" Inherits="Parinya_MasterProject.Main_Function.Search" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><span style="font-size: x-large">Please fill in failure information in this form.</span></h2>
     <table class="nav-justified">
         <tr>
-            <td class="text-right" style="height: 22px; width: 180px">Failure name/description</td>
+            <td class="text-right" style="height: 22px; width: 180px">Failure name<br />
+                (description)</td>
             <td style="height: 22px; width: 6px">&nbsp;</td>
             <td style="height: 22px">
                 <asp:TextBox runat="server" ID="failure_description" CssClass="form-control" TextMode="MultiLine" Width="400px" />
@@ -107,7 +108,7 @@
             <td class="text-right" style="width: 180px">&nbsp;</td>
             <td style="width: 6px">&nbsp;</td>
             <td>
-                <asp:Button ID="failure_buttonSearch" runat="server" CssClass="btn btn-default" Text="Search" />
+                <asp:Button ID="failure_buttonSearch" runat="server" CssClass="btn btn-default" Text="Search" OnClick="failure_buttonSearch_Click" />
             </td>
         </tr>
     </table>

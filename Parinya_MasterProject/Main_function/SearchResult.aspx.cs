@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Parinya_MasterProject
+namespace Parinya_MasterProject.Main_Function
 {
     public partial class SearchResult : Page
     {
