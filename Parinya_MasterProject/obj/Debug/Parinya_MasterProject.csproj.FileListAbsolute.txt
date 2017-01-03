@@ -76,6 +76,9 @@ C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Par
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\roslyn\vbc.exe
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\roslyn\VBCSCompiler.exe
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\Parinya_MasterProject.dll.config
+C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\Parinya_MasterProject.dll
+C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\Parinya_MasterProject.pdb
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\Antlr3.Runtime.dll
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\AspNet.ScriptManager.bootstrap.dll
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\AspNet.ScriptManager.jQuery.dll
@@ -136,9 +139,6 @@ C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Par
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\Parinya_MasterProject.dll.config
-C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\Parinya_MasterProject.dll
-C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\Parinya_MasterProject.pdb
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\obj\Debug\Parinya_MasterProject.dll
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\obj\Debug\Parinya_MasterProject.pdb
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\obj\Debug\Parinya_MasterProject.csprojResolveAssemblyReference.cache
