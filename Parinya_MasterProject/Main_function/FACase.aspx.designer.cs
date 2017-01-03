@@ -7,20 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Parinya_MasterProject.Main_Function
-{
+namespace Parinya_MasterProject.Main_Function {
     
     
     public partial class FACase {
-        
-        /// <summary>
-        /// case_description control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox case_description;
         
         /// <summary>
         /// case_productName control.
@@ -29,26 +19,17 @@ namespace Parinya_MasterProject.Main_Function
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox case_productName;
-        
+        public global::System.Web.UI.WebControls.TextBox case_productName;
+
         /// <summary>
-        /// case_background control.
+        /// case_description control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox case_background;
-        
-        /// <summary>
-        /// case_location control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList case_location;
-        
+        public global::System.Web.UI.WebControls.TextBox case_description;
+
         /// <summary>
         /// case_firmwareVersion control.
         /// </summary>
@@ -56,8 +37,26 @@ namespace Parinya_MasterProject.Main_Function
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox case_firmwareVersion;
-        
+        public global::System.Web.UI.WebControls.TextBox case_firmwareVersion;
+
+        /// <summary>
+        /// case_location control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        public global::System.Web.UI.WebControls.DropDownList case_location;
+
+        /// <summary>
+        /// case_background control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        public global::System.Web.UI.WebControls.TextBox case_background;
+
         /// <summary>
         /// case_containment control.
         /// </summary>
@@ -65,8 +64,8 @@ namespace Parinya_MasterProject.Main_Function
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox case_containment;
-        
+        public global::System.Web.UI.WebControls.TextBox case_containment;
+
         /// <summary>
         /// case_FA control.
         /// </summary>
@@ -74,8 +73,8 @@ namespace Parinya_MasterProject.Main_Function
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox case_FA;
-        
+        public global::System.Web.UI.WebControls.TextBox case_FA;
+
         /// <summary>
         /// case_corrective control.
         /// </summary>
@@ -83,8 +82,8 @@ namespace Parinya_MasterProject.Main_Function
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox case_corrective;
-        
+        public global::System.Web.UI.WebControls.TextBox case_corrective;
+
         /// <summary>
         /// case_preventive control.
         /// </summary>
@@ -92,33 +91,33 @@ namespace Parinya_MasterProject.Main_Function
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox case_preventive;
-        
+        public global::System.Web.UI.WebControls.TextBox case_preventive;
+
         /// <summary>
-        /// failure_buttonSave control.
+        /// case_buttonSave control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button failure_buttonSave;
-        
+        public global::System.Web.UI.WebControls.Button case_buttonSave;
+
         /// <summary>
-        /// failure_buttonSubmit control.
+        /// case_buttonSubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button failure_buttonSubmit;
-        
+        public global::System.Web.UI.WebControls.Button case_buttonSubmit;
+
         /// <summary>
-        /// failure_buttonCancel control.
+        /// case_buttonCancel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button failure_buttonCancel;
+        public global::System.Web.UI.WebControls.Button case_buttonCancel;
     }
 }

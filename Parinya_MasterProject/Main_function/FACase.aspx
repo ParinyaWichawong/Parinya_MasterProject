@@ -1,27 +1,28 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="FACase.aspx.cs" Inherits="Parinya_MasterProject.Main_Function.FACase" %>
+﻿<%@ Page Title="FACase" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="FACase.aspx.cs" Inherits="Parinya_MasterProject.Main_Function.FACase" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><span style="font-size: x-large">Please fill in failure information in this form.</span></h2>
     <table class="nav-justified">
         <tr>
-            <td class="text-right" style="height: 22px; width: 180px">Failure name/description</td>
+            <td class="text-right" style="height: 22px; width: 180px">Product name</td>
             <td style="height: 22px; width: 6px">&nbsp;</td>
+            <td style="height: 22px">
+                <asp:TextBox runat="server" ID="case_productName" CssClass="form-control" TextMode="MultiLine" Width="400px" />
+            </td>
+        </tr>
+        <tr>
+            <td class="text-right" style="height: 22px; width: 180px">Failure name<br />
+                (description)</td>
+            <td style="height: 22px; width: 6px"></td>
             <td style="height: 22px">
                 <asp:TextBox runat="server" ID="case_description" CssClass="form-control" TextMode="MultiLine" Width="400px" />
             </td>
         </tr>
         <tr>
-            <td class="text-right" style="height: 22px; width: 180px">Product name</td>
-            <td style="height: 22px; width: 6px">&nbsp;</td>
-            <td style="height: 22px">
-                <asp:TextBox runat="server" ID="case_productName" CssClass="form-control" Width="656px" />
-            </td>
-        </tr>
-        <tr>
-            <td class="text-right" style="width: 180px">Background</td>
+            <td class="text-right" style="width: 180px">Firmware version</td>
             <td style="width: 6px">&nbsp;</td>
             <td>
-                <asp:TextBox runat="server" ID="case_background" CssClass="form-control" TextMode="MultiLine" Width="400px" />
+                <asp:TextBox runat="server" ID="case_firmwareVersion" CssClass="form-control" Width="656px" />
             </td>
         </tr>
         <tr>
@@ -42,54 +43,49 @@
             </td>
         </tr>
         <tr>
-            <td class="text-right" style="width: 180px; height: 23px;">Duration</td>
-            <td style="width: 6px; height: 23px;"></td>
-            <td style="height: 23px">start: XXX&nbsp; end: XXX</td>
-        </tr>
-        <tr>
-            <td class="text-right" style="width: 180px">Firmware version</td>
+            <td class="text-right" style="width: 180px">Background</td>
             <td style="width: 6px">&nbsp;</td>
             <td>
-                <asp:TextBox runat="server" ID="case_firmwareVersion" CssClass="form-control" Width="656px" />
+                <asp:TextBox runat="server" ID="case_background" CssClass="form-control" TextMode="MultiLine" Width="400px" />
             </td>
         </tr>
         <tr>
-            <td class="text-right" style="width: 180px; height: 24px;">Containment Action</td>
+            <td class="text-right" style="width: 180px; height: 24px;">Containment action</td>
             <td style="width: 6px; height: 24px;"></td>
             <td style="height: 24px">
                 <asp:TextBox runat="server" ID="case_containment" CssClass="form-control" TextMode="MultiLine" Width="400px" />
             </td>
         </tr>
         <tr>
-            <td class="text-right" style="width: 180px">Root Cause Analysis</td>
+            <td class="text-right" style="width: 180px">Root cause analysis</td>
             <td style="width: 6px">&nbsp;</td>
             <td>
                 <asp:TextBox runat="server" ID="case_FA" CssClass="form-control" TextMode="MultiLine" Width="400px" />
             </td>
         </tr>
         <tr>
-            <td class="text-right" style="width: 180px">Corrective Action</td>
-            <td style="width: 6px">&nbsp;</td>
-            <td>
+            <td class="text-right" style="width: 180px; height: 22px;">Corrective action</td>
+            <td style="width: 6px; height: 22px;"></td>
+            <td style="height: 22px">
                 <asp:TextBox runat="server" ID="case_corrective" CssClass="form-control" TextMode="MultiLine" Width="400px" />
             </td>
         </tr>
         <tr>
-            <td class="text-right" style="width: 180px; height: 23px;">Preventive Action</td>
-            <td style="width: 6px; height: 23px;"></td>
-            <td style="height: 23px">
+            <td class="text-right" style="width: 180px">preventive action</td>
+            <td style="width: 6px">&nbsp;</td>
+            <td>
                 <asp:TextBox runat="server" ID="case_preventive" CssClass="form-control" TextMode="MultiLine" Width="400px" />
             </td>
         </tr>
         <tr>
-            <td class="text-right" style="width: 180px">&nbsp;</td>
-            <td style="width: 6px">&nbsp;</td>
-            <td>
-                <asp:Button ID="failure_buttonSave" runat="server" CssClass="btn btn-default" Text="Save" />
+            <td class="text-right" style="width: 180px; height: 38px;"></td>
+            <td style="width: 6px; height: 38px;"></td>
+            <td style="height: 38px">
+                <asp:Button ID="case_buttonSave" runat="server" CssClass="btn btn-default" Text="save" OnClick="failure_buttonSearch_Click" />
             &nbsp;
-                <asp:Button ID="failure_buttonSubmit" runat="server" CssClass="btn btn-default" Text="Submit" />
+                <asp:Button ID="case_buttonSubmit" runat="server" CssClass="btn btn-default" Text="submit" OnClick="failure_buttonSearch_Click" />
             &nbsp;
-                <asp:Button ID="failure_buttonCancel" runat="server" CssClass="btn btn-default" Text="Cancel" />
+                <asp:Button ID="case_buttonCancel" runat="server" CssClass="btn btn-default" Text="cancel" OnClick="failure_buttonSearch_Click" />
             </td>
         </tr>
     </table>

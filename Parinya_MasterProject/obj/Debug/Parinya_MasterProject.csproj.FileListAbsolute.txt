@@ -141,3 +141,4 @@ C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Par
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\Parinya_MasterProject.pdb
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\obj\Debug\Parinya_MasterProject.dll
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\obj\Debug\Parinya_MasterProject.pdb
+C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\obj\Debug\Parinya_MasterProject.csprojResolveAssemblyReference.cache

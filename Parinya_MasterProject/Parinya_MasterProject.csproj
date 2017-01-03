@@ -205,6 +205,7 @@
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Main_Function\FACase.aspx" />
+    <Content Include="Main_Function\OpenCase.aspx" />
     <Content Include="Main_Function\SearchResult.aspx" />
     <Content Include="Main_Function\Search.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -408,6 +409,13 @@
     </Compile>
     <Compile Include="Main_Function\FACase.aspx.designer.cs">
       <DependentUpon>FACase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Function\OpenCase.aspx.cs">
+      <DependentUpon>OpenCase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main_Function\OpenCase.aspx.designer.cs">
+      <DependentUpon>OpenCase.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main_Function\SearchResult.aspx.cs">
       <DependentUpon>SearchResult.aspx</DependentUpon>

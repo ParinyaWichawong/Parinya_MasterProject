@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Parinya_MasterProject.Controllers;
 
 namespace Parinya_MasterProject.Main_Function
 {
@@ -13,5 +14,17 @@ namespace Parinya_MasterProject.Main_Function
         {
 
         }
+
+        protected void failure_buttonSearch_Click(object sender, EventArgs e)
+        {
+            FACaseController controller = FACaseController.getInstance();
+            controller.saveFACase(this);
+        }
+
+        //protected void failure_buttonSearch_Click(object sender, EventArgs e)
+        //{
+        //    FACaseController controller = FACaseController.getInstance();
+        //    controller.saveFACase(this);
+        //}
     }
 }
