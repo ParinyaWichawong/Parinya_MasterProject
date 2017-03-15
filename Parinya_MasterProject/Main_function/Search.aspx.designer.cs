@@ -7,100 +7,36 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Parinya_MasterProject.Main_Function
-{
+namespace Parinya_MasterProject.Main_Function {
     
     
     public partial class Search {
         
         /// <summary>
-        /// failure_description control.
+        /// symptom control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox failure_description;
+        protected global::System.Web.UI.WebControls.TextBox symptom;
         
         /// <summary>
-        /// failure_symptoms control.
+        /// Search_button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox failure_symptoms;
+        protected global::System.Web.UI.WebControls.Button Search_button;
         
         /// <summary>
-        /// failure_productName control.
+        /// AdvancedSearch_button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox failure_productName;
-        
-        /// <summary>
-        /// failure_location control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList failure_location;
-        
-        /// <summary>
-        /// failure_firmwareVersion control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox failure_firmwareVersion;
-        
-        /// <summary>
-        /// failure_temperature control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList failure_temperature;
-        
-        /// <summary>
-        /// failure_current control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList failure_current;
-        
-        /// <summary>
-        /// failure_highVoltage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList failure_highVoltage;
-        
-        /// <summary>
-        /// failure_lowVoltage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList failure_lowVoltage;
-        
-        /// <summary>
-        /// failure_buttonSearch control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button failure_buttonSearch;
+        protected global::System.Web.UI.WebControls.Button AdvancedSearch_button;
     }
 }

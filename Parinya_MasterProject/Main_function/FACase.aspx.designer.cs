@@ -20,7 +20,7 @@ namespace Parinya_MasterProject.Main_Function {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         public global::System.Web.UI.WebControls.TextBox case_productName;
-
+        
         /// <summary>
         /// case_description control.
         /// </summary>
@@ -29,7 +29,7 @@ namespace Parinya_MasterProject.Main_Function {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         public global::System.Web.UI.WebControls.TextBox case_description;
-
+        
         /// <summary>
         /// case_firmwareVersion control.
         /// </summary>
@@ -38,7 +38,7 @@ namespace Parinya_MasterProject.Main_Function {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         public global::System.Web.UI.WebControls.TextBox case_firmwareVersion;
-
+        
         /// <summary>
         /// case_location control.
         /// </summary>
@@ -47,7 +47,7 @@ namespace Parinya_MasterProject.Main_Function {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         public global::System.Web.UI.WebControls.DropDownList case_location;
-
+        
         /// <summary>
         /// case_background control.
         /// </summary>
@@ -56,7 +56,7 @@ namespace Parinya_MasterProject.Main_Function {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         public global::System.Web.UI.WebControls.TextBox case_background;
-
+        
         /// <summary>
         /// case_containment control.
         /// </summary>
@@ -65,7 +65,7 @@ namespace Parinya_MasterProject.Main_Function {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         public global::System.Web.UI.WebControls.TextBox case_containment;
-
+        
         /// <summary>
         /// case_FA control.
         /// </summary>
@@ -74,7 +74,7 @@ namespace Parinya_MasterProject.Main_Function {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         public global::System.Web.UI.WebControls.TextBox case_FA;
-
+        
         /// <summary>
         /// case_corrective control.
         /// </summary>
@@ -83,7 +83,7 @@ namespace Parinya_MasterProject.Main_Function {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         public global::System.Web.UI.WebControls.TextBox case_corrective;
-
+        
         /// <summary>
         /// case_preventive control.
         /// </summary>
@@ -92,7 +92,16 @@ namespace Parinya_MasterProject.Main_Function {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         public global::System.Web.UI.WebControls.TextBox case_preventive;
-
+        
+        /// <summary>
+        /// case_reference control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        public global::System.Web.UI.WebControls.TextBox case_reference;
+        
         /// <summary>
         /// case_buttonSave control.
         /// </summary>
@@ -101,7 +110,7 @@ namespace Parinya_MasterProject.Main_Function {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         public global::System.Web.UI.WebControls.Button case_buttonSave;
-
+        
         /// <summary>
         /// case_buttonSubmit control.
         /// </summary>
@@ -110,7 +119,7 @@ namespace Parinya_MasterProject.Main_Function {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         public global::System.Web.UI.WebControls.Button case_buttonSubmit;
-
+        
         /// <summary>
         /// case_buttonCancel control.
         /// </summary>

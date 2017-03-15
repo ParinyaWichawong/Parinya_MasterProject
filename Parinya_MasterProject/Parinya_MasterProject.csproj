@@ -48,6 +48,14 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.5\MySql.Web.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -206,8 +214,10 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Main_Function\FACase.aspx" />
     <Content Include="Main_Function\OpenCase.aspx" />
-    <Content Include="Main_Function\SearchResult.aspx" />
+    <Content Include="Main_Function\test_database_connection.aspx" />
     <Content Include="Main_Function\Search.aspx" />
+    <Content Include="Main_Function\SearchResult.aspx" />
+    <Content Include="Main_Function\AdvancedSearch.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -392,7 +402,9 @@
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Controllers\FACaseController.cs" />
+    <Compile Include="Controllers\DatabaseController.cs" />
     <Compile Include="Controllers\FileController.cs" />
+    <Compile Include="Controllers\IDatabase.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -417,12 +429,12 @@
     <Compile Include="Main_Function\OpenCase.aspx.designer.cs">
       <DependentUpon>OpenCase.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main_Function\SearchResult.aspx.cs">
-      <DependentUpon>SearchResult.aspx</DependentUpon>
+    <Compile Include="Main_Function\test_database_connection.aspx.cs">
+      <DependentUpon>test_database_connection.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main_Function\SearchResult.aspx.designer.cs">
-      <DependentUpon>SearchResult.aspx</DependentUpon>
+    <Compile Include="Main_Function\test_database_connection.aspx.designer.cs">
+      <DependentUpon>test_database_connection.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main_Function\Search.aspx.cs">
       <DependentUpon>Search.aspx</DependentUpon>
@@ -430,6 +442,20 @@
     </Compile>
     <Compile Include="Main_Function\Search.aspx.designer.cs">
       <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Function\SearchResult.aspx.cs">
+      <DependentUpon>SearchResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main_Function\SearchResult.aspx.designer.cs">
+      <DependentUpon>SearchResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Function\AdvancedSearch.aspx.cs">
+      <DependentUpon>AdvancedSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main_Function\AdvancedSearch.aspx.designer.cs">
+      <DependentUpon>AdvancedSearch.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

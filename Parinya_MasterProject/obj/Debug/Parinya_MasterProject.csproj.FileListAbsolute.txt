@@ -141,4 +141,8 @@ C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Par
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\obj\Debug\Parinya_MasterProject.dll
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\obj\Debug\Parinya_MasterProject.pdb
+C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\MySql.Data.dll
+C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\MySql.Web.dll
+C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\MySql.Data.xml
+C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\bin\MySql.Web.xml
 C:\Users\Parinya_W\Google Drive\CHULA_ENGINEERING\Master Project\Development\Parinya_MasterProject\Parinya_MasterProject\obj\Debug\Parinya_MasterProject.csprojResolveAssemblyReference.cache
