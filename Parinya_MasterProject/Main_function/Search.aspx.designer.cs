@@ -19,8 +19,8 @@ namespace Parinya_MasterProject.Main_Function {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox symptom;
-        
+        public global::System.Web.UI.WebControls.TextBox symptom;
+
         /// <summary>
         /// Search_button control.
         /// </summary>
@@ -28,8 +28,8 @@ namespace Parinya_MasterProject.Main_Function {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Search_button;
-        
+        public global::System.Web.UI.WebControls.Button Search_button;
+
         /// <summary>
         /// AdvancedSearch_button control.
         /// </summary>
@@ -37,6 +37,6 @@ namespace Parinya_MasterProject.Main_Function {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AdvancedSearch_button;
+        public global::System.Web.UI.WebControls.Button AdvancedSearch_button;
     }
 }

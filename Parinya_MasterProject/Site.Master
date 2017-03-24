@@ -53,7 +53,7 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/Main_function/search">Search</a></li>
                         <li><a runat="server" href="~/Main_function/AdvancedSearch">Advanced Search</a></li>
-                        <li><a runat="server" href="~/Main_function/FACase">Create new FA</a></li>
+                        <li><a runat="server" href="~/Main_function/NewFACase">Create new FA</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                     </ul>

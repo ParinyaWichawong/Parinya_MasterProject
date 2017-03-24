@@ -22,17 +22,20 @@ namespace Parinya_MasterProject.Main_Function
         protected void AdvancedSearch_button_Click(object sender, EventArgs e)
         {
             string msgPassing = symptom.Text;
-            //if (symptom.Wrap)
-            //{
-            //    msgPassing.Replace("\r", "  ");
-            //    msgPassing.Replace("\n", "  ");
-            //}
-            Response.Redirect("AdvancedSearch.aspx?symp=" + msgPassing);
+
+            Session["symptom_msg"] = symptom.Text;
+            Server.Transfer("AdvancedSearch.aspx");
+
+            //string str = symptom.Text.Replace("\n", "<br />");
+            //Response.Redirect("AdvancedSearch.aspx?symptom_msg=" + str);
         }
 
         protected void Search_button_Click(object sender, EventArgs e)
         {
+            Session["symptom_msg"] = symptom.Text;
+            Server.Transfer("SearchResult.aspx");
 
+            //Response.Redirect("SearchResult.aspx?symptom_msg=" + symptom.Text);
         }
     }
 }
